@@ -1,0 +1,9 @@
+{
+  "name": "coco-vercel-bot",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "node --check api/telegram.js && node --check api/admin.js && node --check api/health.js"
+  }
+}
